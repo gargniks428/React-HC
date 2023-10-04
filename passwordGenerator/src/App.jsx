@@ -18,7 +18,7 @@ function App(){
   
   useEffect(()=>{
     passwordGenerator()
-  },[length,numbers,spChar,setPassword])
+  },[length,numbers,spChar,setPassword,passwordGenerator])
 
   const passwordRef=useRef(null)
   const copyToClipBoard=()=>{
